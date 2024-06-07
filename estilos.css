@@ -1,0 +1,145 @@
+BODY{
+#RI{
+align:right;
+width:200;
+height:300px;}
+#LE{
+align:left;
+width:200;
+height:300px;}
+#LOG{
+width:500px;
+height:300px;}
+#INI{
+width:auto;
+height:auto;}
+a:hover{
+cursor:url("avion.png"),auto;}
+background-image:url("foninde.jpg");
+background-size:cover;
+#VIS{
+width:100%;
+height:100px;}
+width:1135px;
+height:auto;
+margin:50px auto;
+cursor:url("avion.png"),auto;
+font-family:SimSun;
+COLOR:WHITE;
+text-align:center;
+FONT-SIZE:40px;}
+
+#CUERPO{
+margin:auto;
+width:750px;
+background:#D5F5E3;
+	border:5px solid white;
+	box-shadow:0 0 10px #44556f, 0 0 40px #44556f, 0 0 80px #44556f;
+ul,ol{
+list-style:none;}
+.MENU li a{
+background-color:#596E84;
+color:white;
+cursor:url("avion.png");
+font-family:Arial Rounded MT Bold;
+text-decoration:none;
+padding:5px 15px;
+display:block;}
+.MENU li a:hover{
+background-color:#162B4E;}
+.MENU > li{
+float:left;}
+.MENU li ul{
+display:none;
+position:absolute;
+min-width:140px;
+}
+.MENU li:hover > ul{
+display:block;}
+	
+}
+
+		
+#medio{
+background-color:#D5F5E3;
+text-align:center;
+border:5px solid white;
+color:black;
+width:auto;
+height:auto;
+font-family:Eras Demi ITC;
+font-size:20px;
+}
+
+#CONTAC{
+font-size:15;
+font-family:arial;
+background:black;
+}
+#Red{
+#ter{
+width:70px;
+height:50px;
+align:left;
+}
+#buk{
+width:50px;
+height:50px;
+align:center;
+}
+#din{
+width:50px;
+height:50px;
+align:right;
+}
+
+}
+.BOTON{
+cursor:url("esp.png"),auto;
+display:flex;
+justify-content:center;
+margin:2rem;
+}
+.noti{
+cursor:url("esp.png"),auto;
+padding:35px 50px;
+font-size:40px;
+align:center;
+border-radius:1rem;
+background:#251b1b;
+font-family:consolas;
+overflow:hidden;
+transition:0.2s;
+color:white;
+letter-spacing:6px;
+}
+.noti:hover{
+background:#a945d7;
+box-shadow: 0 0 10px #a945d7, 0 0 40px #a945d7;
+cursor:url("esp.png"),auto;
+
+}		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+}

@@ -1,0 +1,99 @@
+p {
+color:black;
+background-color:LightBlue;
+background-size:cover;
+text-align:center;
+text-decoration:White;
+font-family:Bodoni MT;
+font-size: 0.10 rem;
+
+
+
+}
+#img1{
+border-radius: 20%;/*redondea las esquinas de la imagen*/
+/*clip-path: circle(50%);*/
+  width: 500px;
+  height:300px;
+
+}
+
+:root {
+  font-size: calc(1vw + 1vh + 1.5vmin);/*tamaño de texto en relación a las dimensiones de la pantalla gráfica*/
+}
+
+body {
+  font-size: 1rem; /*tamaño de letra de la página*/
+}
+
+h1 {
+  font-weight: 400; /*grosor (peso) de la letra*/
+  text-align: center; /*texto centrado*/
+  text-transform: uppercase; /*letra en mayúsculas*/
+}
+
+p {
+  text-align: CENTER; /*texto alineado a la derecha*/
+}
+
+
+.neon { /*nombre de la clase*/
+  color: #4D4DFF;   /*color del texto al que le aplicaremos la sombra*/
+  text-shadow:/*combinación de colores que hacen el efecto neon*/
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.container:hover {
+}
+.text {
+  position: absolute;
+  font-size: 72px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FC6E22;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.magic {
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  background: center center no-repeat fixed;
+  border-radius: 50%;
+  z-index: 2;
+}
+.BOTON{
+cursor:url("esp.png"),auto;
+display:flex;
+justify-content:center;
+margin:2rem;
+}
+.noti{
+cursor:url("esp.png"),auto;
+padding:35px 50px;
+font-size:40px;
+align:center;
+border-radius:1rem;
+background:#251b1b;
+font-family:consolas;
+overflow:hidden;
+transition:0.2s;
+color:white;
+letter-spacing:6px;
+}
+.noti:hover{
+background:#a945d7;
+box-shadow: 0 0 10px #a945d7, 0 0 40px #a945d7;
+cursor:url("esp.png"),auto;
+
+}		
